@@ -1,5 +1,5 @@
-let user_name = "Eric";
-let isMorning = false;
+let user_name = prompt("Enter your name: ");
+let isMorning = prompt("Enter whether it is morning or not: (True or False)");
 
 function greetingBot(user_name, isMorning) {
     if(isMorning) {

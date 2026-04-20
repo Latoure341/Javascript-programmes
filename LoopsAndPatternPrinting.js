@@ -2,13 +2,16 @@
 const firstArray = [ 2, 5, 8, 3, 9 ];
 const secondArray = [ 12, 20, 15, 18, 14 ];
 
+console.log(firstArray)
+console.log(secondArray)
+
 // Merging firstArray and secondArray using Spread Operator
 const mergedArray = [ ...firstArray, ...secondArray ];
-// mergedArray.forEach(numb => {
-//     console.log(numb);
-// })
+console.log("Merged Array")
+console.log(mergedArray)
 
 // Pattern Printing using for Loop
+console.log("Pattern Printing using for loop")
 const rows = 5;
 for (let i = 1; i <= rows; i++) {
   let line = "";
@@ -24,8 +27,9 @@ for (let i = 1; i <= rows; i++) {
 }
 
 // Number Printing
+console.log("Number Printing")
 let number = 10;
 while(number >=0) {
-    // console.log(number)
+    console.log(number)
     number -= 1
 }

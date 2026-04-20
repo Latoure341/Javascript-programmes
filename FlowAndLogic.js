@@ -1,4 +1,5 @@
-let score = 75;
+
+let score = parseInt(prompt("Enter the score of the student: "));
 let grade;
 
 switch (true) {
